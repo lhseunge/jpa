@@ -28,13 +28,12 @@ public class UserServiceImpl implements UserService {
     public UserResponse getUserById(Long id) {
 
         QUser qUser = QUser.user;
-        UserResponse.from(
-                (User) queryFactory.select()
+        return UserResponse.from(
+                queryFactory.select(qUser)
                         .from(qUser)
                         .where(qUser.id.eq(id))
                         .fetchOne());
 
 
-        return null;
     }
 }
