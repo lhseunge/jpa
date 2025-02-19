@@ -1,6 +1,6 @@
 package com.practice.template.user.service;
 
-import com.practice.template.user.UserRepository;
+import com.practice.template.user.repository.UserRepository;
 import com.practice.template.user.dto.UserResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
