@@ -1,0 +1,22 @@
+INSERT INTO users (name, phone, email)
+VALUES
+    ('김민서', '010-7926-7093', 'ligula.aliquam.erat@yahoo.org'),
+    ('박서윤', '010-2442-8912', 'neque.morbi.quis@icloud.org'),
+    ('이도윤', '010-1130-0377', 'egestas.lacinia.sed@icloud.com'),
+    ('정하윤', '010-8895-8067', 'nam.porttitor.scelerisque@google.com'),
+    ('한지우', '010-4814-5671', 'adipiscing@icloud.couk'),
+    ('유건우', '010-3638-2552', 'velit.eget@yahoo.ca'),
+    ('노예준', '010-6476-3161', 'sed.eu@aol.ca'),
+    ('송하람', '010-6772-3319', 'neque.et@yahoo.com'),
+    ('배도현', '010-0812-8874', 'dolor@hotmail.couk'),
+    ('문시우', '010-2510-2557', 'enim@protonmail.couk'),
+    ('오하린', '010-3764-8872', 'magna.lorem.ipsum@google.ca'),
+    ('강서진', '010-1750-6233', 'eget.odio@hotmail.org'),
+    ('권도영', '010-9268-4462', 'per.conubia@aol.com'),
+    ('장민재', '010-1383-0467', 'lobortis.augue@icloud.couk'),
+    ('백서율', '010-6827-4771', 'magna.sed@hotmail.com'),
+    ('최예린', '010-4888-8246', 'pretium.neque@aol.org'),
+    ('신지호', '010-5171-6830', 'per.conubia.nostra@hotmail.couk'),
+    ('조민혁', '010-2971-6282', 'ac@icloud.net'),
+    ('양하늘', '010-9441-8298', 'erat@icloud.net'),
+    ('임도훈', '010-9761-1773', 'fringilla@aol.edu');
