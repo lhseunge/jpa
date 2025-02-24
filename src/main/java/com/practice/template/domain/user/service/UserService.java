@@ -1,6 +1,6 @@
-package com.practice.template.user.service;
+package com.practice.template.domain.user.service;
 
-import com.practice.template.user.dto.UserResponse;
+import com.practice.template.domain.user.dto.UserResponse;
 
 import java.util.List;
 

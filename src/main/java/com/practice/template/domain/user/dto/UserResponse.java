@@ -1,6 +1,6 @@
-package com.practice.template.user.dto;
+package com.practice.template.domain.user.dto;
 
-import com.practice.template.user.entity.User;
+import com.practice.template.domain.user.entity.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

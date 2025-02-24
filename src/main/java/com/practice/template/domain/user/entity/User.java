@@ -1,4 +1,4 @@
-package com.practice.template.user.entity;
+package com.practice.template.domain.user.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

@@ -1,9 +1,8 @@
-package com.practice.template.user.service;
+package com.practice.template.domain.user.service;
 
-import com.practice.template.user.entity.QUser;
-import com.practice.template.user.entity.User;
-import com.practice.template.user.repository.UserRepository;
-import com.practice.template.user.dto.UserResponse;
+import com.practice.template.domain.user.entity.User;
+import com.practice.template.domain.user.repository.UserRepository;
+import com.practice.template.domain.user.dto.UserResponse;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
