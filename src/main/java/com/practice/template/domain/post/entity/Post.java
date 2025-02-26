@@ -1,5 +1,6 @@
 package com.practice.template.domain.post.entity;
 
+import com.practice.template.domain.user.entity.User;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -16,5 +17,7 @@ public class Post {
     private String title;
     private String content;
 
-    private long userId;
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 }
