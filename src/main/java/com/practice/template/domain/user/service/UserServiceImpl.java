@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-import static com.practice.template.user.entity.QUser.user;
+import static com.practice.template.domain.user.entity.QUser.user;
 
 @Service
 @RequiredArgsConstructor
