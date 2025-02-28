@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface PostService {
 
-    PostResponse getPosts();
+    List<PostResponse> getPosts();
     List<PostResponse> getPostByUserId(Long userId);
 }

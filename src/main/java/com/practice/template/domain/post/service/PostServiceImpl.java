@@ -14,8 +14,10 @@ public class PostServiceImpl implements PostService {
     private final PostRepository postRepository;
 
     @Override
-    public PostResponse getPosts() {
-        return null;
+    public List<PostResponse> getPosts() {
+        return postRepository.findAll().stream()
+                .map(PostResponse::from)
+                .toList();
     }
 
     @Override
