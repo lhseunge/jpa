@@ -15,6 +15,7 @@ public class PostServiceImpl implements PostService {
 
     @Override
     public List<PostResponse> getPosts() {
+
         return postRepository.findAll().stream()
                 .map(PostResponse::from)
                 .toList();
