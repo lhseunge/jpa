@@ -17,6 +17,7 @@ public class PostController {
 
     private final PostService postService;
 
+    @GetMapping
     public List<PostResponse> getPosts() {
         return postService.getPosts();
     }
